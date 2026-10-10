@@ -73,5 +73,4 @@ class Normal:
         val = val - ((value ** 7) / 42) + ((value ** 9) / 216)
         val *= (2 / (pi ** (1 / 2)))
         cdf = (1 / 2) * (1 + val)
-        return cdf
-        
+        return cdf    
