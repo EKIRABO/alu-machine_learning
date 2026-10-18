@@ -15,3 +15,4 @@ def correlation(C):
     v = np.diag(1 / np.sqrt(np.diag(C)))
     CR = np.matmul(np.matmul(v, C), v)
     return CR
+    
