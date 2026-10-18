@@ -14,3 +14,4 @@ def mean_cov(X):
     mean[0] = np.mean(X, axis=0)
     C = np.dot(X.T, X - mean) / (X.shape[0] - 1)
     return (mean, C)
+    
